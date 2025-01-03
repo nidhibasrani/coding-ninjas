@@ -7,8 +7,8 @@ export default function App() {
   return (
     <div>
       <Header/>
-      <h1 className="text-orange ">Hello Testing tailwind</h1>
- 
+     
+ <Hero/>
       <Footer/>
 
     </div>
