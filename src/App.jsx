@@ -1,16 +1,19 @@
-import React from "react"
-import Header from "./components/Header"
-import Footer from "./components/Footer"
-import Hero from "./components/Hero"
+import React from "react";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Hero from "./components/Hero";
+import OurOfferings from "./components/OurOfferings";
+import IITCertifications from "./components/IITCertifications";
 
 export default function App() {
   return (
     <div>
-      <Header/>
-      <h1 className="text-orange  ">Hello Testing tailwind</h1>
+      <Header />
 
-      <Footer/>
-
+      <Hero />
+      <OurOfferings />
+      <IITCertifications />
+      <Footer />
     </div>
-  )
+  );
 }
