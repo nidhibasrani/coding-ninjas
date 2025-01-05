@@ -17,6 +17,13 @@ const Hero = () => {
             Explore Offerings
             <img src="./public/arrow-down.svg"/>
         </button>
+        <div>
+      <h2>My Video</h2>
+      <video width="600" controls>
+        <source src="./public/C:\Users\nidhi\OneDrive\Desktop\codezintern2\vite-project\public\coding ninja video.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
     </div>
     </div>
   )
