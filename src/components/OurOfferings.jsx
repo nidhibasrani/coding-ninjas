@@ -15,6 +15,7 @@ const OurOfferings = () => {
       att3: "2k+ Learners",
       icon: "./public/data Analytics.svg",
     },
+   
   ];
   return (
     <div className="bg-white max-w-screen-lg mx-auto ">
