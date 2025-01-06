@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import OurOfferings from "./components/OurOfferings";
 import IITCertifications from "./components/IITCertifications";
+import Certification from "./components/certification";
 
 export default function App() {
   return (
@@ -13,7 +14,7 @@ export default function App() {
       <Hero />
       <OurOfferings />
       <IITCertifications />
-
+      <Certification/>
       <Footer />
     </div>
   );
