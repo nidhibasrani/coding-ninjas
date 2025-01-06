@@ -3,8 +3,8 @@ import React from "react";
 const Header = () => {
   return (
     <div className="">
-      <div className="parent flex justify-around  py-3.5 items-center">
-        <div className="left flex justify-around gap-12 items-center">
+      <div className="parent flex justify-around  py-3.5 items-center w-2/ ">
+        <div className="left flex justify-around gap-12 items-center"> 
           <div className="logo">
             <img src="./public/logo.svg " height={150} width={150} />
           </div>

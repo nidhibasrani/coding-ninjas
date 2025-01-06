@@ -13,6 +13,7 @@ export default function App() {
       <Hero />
       <OurOfferings />
       <IITCertifications />
+
       <Footer />
     </div>
   );
