@@ -19,7 +19,7 @@ export default {
       colors: {
         orange: "#F66C3B",
         black: "#141414",
-        lightBg: "#FFF6F3",
+        lightBg: "#fffbf5",
         grey: "#2D2D2D",
         ligthBlack: "#1F1F1F",
       },

@@ -1,36 +1,44 @@
-import React from 'react'
+import React from "react";
 
-const OurOfferingCards = () => {
+const OurOfferingCards = ({ title, att1, att2, att3, icon }) => {
+  // att means attribute
   return (
     <>
-    <div class="parent flex bg-white ">
-    <div
-      class="bg-blue-100 shadow-[0_4px_12px_-5px_rgba(0,0,0,0.4)] w-full max-w-sm rounded-lg font-[sans-serif] overflow-hidden mx-auto mt-4  items-center">
-      <div class="p-6 ">
-       <img src="./public/fullstack.svg" />
-        <h4 class=" text-lg text-gray-500 leading-relaxed text-center ">Full Stack Web Development </h4>
-        </div>
-        <div
-      class="bg-white overflow-hidden mx-auto mt-4 flex mb-0 rounded py-2">
-      <p>140+hourofcontent <span></span>600+problems<span/> 10k+Learners</p>
-      
-      </div>
-    </div>
-    <div
-      class="bg-blue-100 shadow-[0_4px_12px_-5px_rgba(0,0,0,0.4)] w-full max-w-sm rounded-lg font-[sans-serif] overflow-hidden mx-auto mt-4  items-center">
-      <div class="p-6 ">
-       <img src="./public/data Analytics.svg" />
-        <h4 class=" text-lg text-gray-500 leading-relaxed text-center ">Data Analytics </h4>
-        </div>
-        <div
-      class="bg-white overflow-hidden mx-auto mt-4 flex mb-0 rounded py-2">
-      <p>140+hourofcontent <span></span>600+problems<span/> 10k+Learners</p>
-      
-      </div>
-    </div>
-    </div>
-    </>
-  )
-}
+      <div className="flex justify-center items-center">
+        <div className="bg-white shadow-[0_4px_12px_-5px_rgba(0,0,0,0.4)] rounded-lg md:w-[28rem] w-[20rem]  font-sans overflow-hidden">
+          <div className="bg-[#f5f7fe] py-8 px-6 flex items-center  gap-5">
+            <img
+              className="bg-white p-3 rounded-full"
+              src={icon}
+              alt="Full Stack Icon"
+              width={75}
+            />
 
-export default OurOfferingCards
+            <h4 className="text-xl font-mulish font-bold text-black leading-relaxed text-center">
+              {title}
+            </h4>
+          </div>
+          <div className="bg-white py-4  px-6 flex justify-between text-center ">
+            <div className="flex flex-col">
+              <span className="text-sm font-mulish font-medium text-gray-600">
+                {att1}
+              </span>
+            </div>
+            <div className="flex flex-col">
+              <span className="text-sm font-mulish  font-medium text-gray-600">
+                {att2}
+              </span>
+            </div>
+            <div className="flex flex-col">
+              <span className="text-sm font-mulish  font-medium text-gray-600">
+                {att3}
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default OurOfferingCards;
