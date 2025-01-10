@@ -22,10 +22,23 @@ const Profile = () => {
      
       course2: "Competitive Programming",
       course3: "Product Companies Interview Prep",
-      icon1: "./public/logo1.png",
-      icon2: "./public/logo2.png",
+      icon1: "./public/logo5.png",
+      icon2: "./public/logo6.png",
+     icon3:"./public/logo1.png"
+    },
+    {
+      image: "./public/nidhi-33194.webp", // Ensure you have an image path here
+      name: "Nidhi Agarwal",
+      position: "Founding member & Product Manager at Coding Ninjas",
+      course1:"Basics of Python with DSA" ,
+     
+      course2: "Competitive Programming",
+      course3: "Product Companies Interview Prep",
+      icon1: "./public/logo7.png",
+      icon2: "./public/logo1.png",
       icon3: "./public/logo3.png",
     },
+   
    
     // Add images for other items similarly
   ];
