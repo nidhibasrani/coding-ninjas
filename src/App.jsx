@@ -8,6 +8,8 @@ import Certification from "./components/certification";
 import Profilecards from "./components/Profilecards";
 import MockInterview from "./components/MockInterview";
 import Profile from "./components/Profile";
+import PlacementReport from "./components/PlacementReport";
+import Slider from "./components/Slider"
 export default function App() {
   return (
     <div>
@@ -15,9 +17,11 @@ export default function App() {
 
       <Hero />
       <OurOfferings />
-      <MockInterview />
-      <Profile/>
+      <PlacementReport/>
       <IITCertifications />
+      <Profile/>
+     <Slider/>
+      <MockInterview />
       <Certification/>
       <Footer />
     </div>

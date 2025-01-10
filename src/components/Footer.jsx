@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="bg-blue-900 text-white p-10">
+    <footer className="bg-[#453934] text-white p-10">
       <div className="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
         <div>
           <img src="./public/footerlogo.svg"/>
