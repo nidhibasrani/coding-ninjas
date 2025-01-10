@@ -14,11 +14,14 @@ export default function App() {
       <Header />
 
       <Hero />
-      <OurOfferings />
-      <MockInterview />
-      <Profile/>
+      <div className="w-2/3 mb-20  mx-auto">
+        <OurOfferings />
+      </div>
+
       <IITCertifications />
-      <Certification/>
+      <MockInterview />
+      <Profile />
+      <Certification />
       <Footer />
     </div>
   );
