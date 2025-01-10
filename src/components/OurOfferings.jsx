@@ -18,7 +18,7 @@ const OurOfferings = () => {
    
   ];
   return (
-    <div className="bg-white max-w-screen-lg mx-auto ">
+    <div className="bg-white max-w-screen-lg  ">
       <div className="parent flex-col my-14">
         <div className="  ">
           <h3 className=" text-[100px] font-bold text-light text-[#e3e3e3] text-center">
