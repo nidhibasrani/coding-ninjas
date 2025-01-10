@@ -20,9 +20,13 @@ const CardSlider = () => {
                     perPage: 3, // Show 3 cards per page
                     gap: '1rem', // Space between cards
                     autoplay: true, // Auto transition
-                    interval: 3000, // Auto slide every 3 seconds
+                    interval: 0, // Continuous transition
+                    speed: 20000, // 10 seconds for each slide
+                    easing: 'linear', // Smooth easing
                     pagination: false, // Disable pagination
-                    arrows: true, // Enable navigation arrows
+                    arrows: false, // Disable navigation arrows
+                    drag: false, // Disable user sliding
+                    pauseOnHover: true, // Pause the slider on hover
                     breakpoints: {
                         768: {
                             perPage: 1, // 1 card per page on smaller screens
@@ -47,4 +51,3 @@ const CardSlider = () => {
 };
 
 export default CardSlider;
-
