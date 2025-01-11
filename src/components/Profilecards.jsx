@@ -1,10 +1,12 @@
 import React from 'react';
+import { Splide, SplideSlide } from '@splidejs/react-splide';
+import '@splidejs/react-splide/css'; // Import Splide CSS
 
 const Profilecards = ({ image, name, position, course1, course2, course3, icon1, icon2, icon3 }) => {
   return (
-    <div className="parent flex flex-col border justify-center items-center gap-2 mt-4 w-72 p-5 h-50">
+    <div className="flex flex-col border justify-center items-center gap-2 mt-4 w-72 p-5 h-50 bg-white rounded-lg shadow-md">
       <div className="profile justify-center items-center flex flex-col gap-2">
-        <img src={image} width={70} height={70} alt={`${name}'s profile`} />
+        <img src={image} width={70} height={70} alt={`${name}'s profile`} className="rounded-full" />
         <div className="information font-semibold">{name}</div>
         <div>{position}</div>
       </div>

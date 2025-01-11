@@ -8,8 +8,11 @@ import Certification from "./components/certification";
 import Profilecards from "./components/Profilecards";
 import MockInterview from "./components/MockInterview";
 import Profile from "./components/Profile";
-import PlacementReport from "./components/PlacementReport";
+
 import Slider from "./components/Slider";
+import SuccessStories from "./components/SuccessStories";
+import TrustedByLearners from "./components/TrustedByLearners";
+import Spotlight from "./components/Spotlight";
 export default function App() {
   return (
     <div>
@@ -20,9 +23,12 @@ export default function App() {
         <OurOfferings />
       </div>
       <IITCertifications />
-      <PlacementReport />
+      
       <Profile />
+      <Spotlight/>
       <Slider />
+      <SuccessStories/>
+      <TrustedByLearners/>
       <MockInterview />
       <Certification />
       <Footer />
