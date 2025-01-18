@@ -6,7 +6,7 @@ const OurOfferings = () => {
       att1: "140+ Hrs of content",
       att2: "600+ Problems",
       att3: "10k+ Learners",
-      icon: "./public/fullstack.svg",
+      icon: "c",
     },
     {
       title: "Data Analytics",

@@ -13,6 +13,7 @@ import Slider from "./components/Slider";
 import SuccessStories from "./components/SuccessStories";
 import TrustedByLearners from "./components/TrustedByLearners";
 import Spotlight from "./components/Spotlight";
+import TheCodingNinjasAdvantages from "./components/TheCodingNinjasAdvantages";
 export default function App() {
   return (
     <div>
@@ -23,7 +24,7 @@ export default function App() {
         <OurOfferings />
       </div>
       <IITCertifications />
-      
+      <TheCodingNinjasAdvantages/>
       <Profile />
       <Spotlight/>
       <Slider />

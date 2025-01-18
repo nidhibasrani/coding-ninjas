@@ -4,53 +4,48 @@ import Card from './Spotlightcard';
 
 const Spotlight = () => {
   const cardsData = [
-   
     {
-      title: 'CXOtoday.com',
+      profile: './public/cxo.png',
       content: 'Coding Ninjas Unconventional Approach Upskills 1L Students, Yields 2.2x Salary Increase',
     },
     {
-      title: 'Hindustan Times',
-      content: 'Sustainable development through upskilling: India\'s engineering renaissance',
+      profile: './public/hindustan_times.png', // Placeholder image path
+      content: "Sustainable development through upskilling: India's engineering renaissance",
     },
     {
-      title: 'The Hindu',
+      profile: './public/the_hindu.png', // Placeholder image path
       content: 'Women in tech earn 7% more than men on average but men snag the highest salaries',
     },
     {
-      title: 'The Economic Times',
+      profile: './public/the_economic_times.png', // Placeholder image path
       content: 'Tech grads sign up for "bootcamps" to be more employable',
     },
     {
-      title: 'The Times of India',
+      profile: './public/the_times_of_india.png', // Placeholder image path
       content: 'Young professionals must embrace continuous upskilling in the age of AI',
     },
     {
-      title: 'Moneycontrol',
+      profile: './public/moneycontrol.png', // Placeholder image path
       content: 'Generative AI courses in hot demand as more Indians flock to upskilling platforms',
     },
-    {
-        title: 'Moneycontrol',
-        content: 'Generative AI courses in hot demand as more Indians flock to upskilling platforms',
-      },
   ];
 
   return (
-    <section className="bg-pink-50 py-12 ">
-      <div className="container mx-7 px-4 gap-6">
+    <section className="bg-pink-50 py-12 flex justify-center items-center">
+      <div className="container mx-auto px-4">
         <h2 className="text-2xl font-bold text-center mb-8">Coding Ninjas in Spotlight</h2>
-        <div className="flex flex-wrap justify-center lg:justify-between ">
+        <div className="flex flex-col lg:flex-row items-center lg:items-center lg:justify-center gap-8">
           {/* Large Card */}
-          <div className="w-full lg:w-5/12 ">
-         <img src= './public/spotlight.webp' /> 
+          <div className="w-full lg:w-3/12 flex justify-center">
+            <img src='./public/spotlight.webp' alt="Spotlight" className="rounded-lg shadow-lg " />
           </div>
-          
+
           {/* Small Cards */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 w-full lg:w-7/12">
-            {cardsData.slice(1).map((card, index) => (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 w-full lg:w-5/12 font-mulish text-xs p-0 pl-0 pr-0">
+            {cardsData.map((card, index) => (
               <Card
-                key={index + 1}
-                title={card.title}
+                key={index}
+                title={card.profile}
                 content={card.content}
               />
             ))}
