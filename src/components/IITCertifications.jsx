@@ -17,6 +17,11 @@ const IITCertifications = () => {
             For Graduates
           </p>
           <IITCertificationCard />
+          <div className="flex gap-7">
+          <IITCertificationCard />
+          <IITCertificationCard />
+          <IITCertificationCard />
+          </div>
         </div>
       </div>
 
