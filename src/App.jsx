@@ -25,7 +25,7 @@ export default function App() {
         <OurOfferings />
       </div>
       <IITCertifications />
-      <TheCodingNinjasAdvantages/>
+      {/* <TheCodingNinjasAdvantages/> */}
       <Profile />
       <Spotlight/>
       <Slider />

@@ -59,7 +59,7 @@ const Hero = () => {
         </button>
 
         {/* Video */}
-        <div className="w-3/5 mt-20 mb-4">
+        <div className="md:w-3/5 mt-20 mb-4 ">
           <video src="./coding ninja video.mp4" controls autoPlay></video>
         </div>
       </div>

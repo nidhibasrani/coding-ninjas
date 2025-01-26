@@ -1,4 +1,6 @@
 import OurOfferingCards from "./OurOfferingCards";
+import '@splidejs/react-splide/css';
+import { Splide, SplideSlide } from '@splidejs/react-splide';
 const OurOfferings = () => {
   const data = [
     {
@@ -6,7 +8,7 @@ const OurOfferings = () => {
       att1: "140+ Hrs of content",
       att2: "600+ Problems",
       att3: "10k+ Learners",
-      icon: "c",
+      icon: "./public/fullstack.svg",
     },
     {
       title: "Data Analytics",
@@ -21,7 +23,7 @@ const OurOfferings = () => {
     <div className="bg-white max-w-screen-lg  ">
       <div className="parent flex-col my-14">
         <div className="  ">
-          <h3 className=" text-[100px] font-bold text-light text-[#e3e3e3] text-center">
+          <h3 className=" text-[50px] md:text-[100px] font-bold text-light text-[#e3e3e3] text-center">
             {" "}
             OUR OFFERINGS
           </h3>

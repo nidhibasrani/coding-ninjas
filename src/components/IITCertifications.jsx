@@ -1,6 +1,7 @@
 import React from "react";
 import IITCertificationCard from "./IITCertificationCard";
-
+import "@splidejs/react-splide/css";
+import { Splide, SplideSlide } from "@splidejs/react-splide";
 const IITCertifications = () => {
   return (
     <div className="w-full bg-lightBg pt-1 pb-10 relative">
@@ -17,14 +18,16 @@ const IITCertifications = () => {
             For Graduates
           </p>
           <IITCertificationCard />
-         
+
           <p className="font-mulish text-[12px]   bg-[#745e39] text-lightBg  font-bold rounded-full mt-10 py-1 px-4 ">
-              For college students
-            </p>
+            For college students
+          </p>
+          <div className="w-full hide-scrollbar md:overflow-hidden">
             <div className="flex gap-7 ">
-          <IITCertificationCard />
-          <IITCertificationCard />
-          <IITCertificationCard />
+              <IITCertificationCard />
+              <IITCertificationCard />
+              <IITCertificationCard />
+            </div>
           </div>
         </div>
       </div>

@@ -8,3 +8,17 @@
     src: local("Mulish"),
     url('./assets/Mulish.ttf') format('truetype');
 }
+
+
+
+.hide-scrollbar {
+    overflow: hidden; 
+    overflow-x: auto; 
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+  }
+  
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none; 
+  }
+  
