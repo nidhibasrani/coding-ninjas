@@ -15,6 +15,7 @@ import TrustedByLearners from "./components/TrustedByLearners";
 import Spotlight from "./components/Spotlight";
 import TheCodingNinjasAdvantages from "./components/TheCodingNinjasAdvantages";
 import Mentorshipsessions from "./components/Mentorshipsessions";
+import LearningSection from "./components/LearningSectinon";
 export default function App() {
   return (
     <div>
@@ -31,6 +32,7 @@ export default function App() {
       <Slider />
       <SuccessStories/>
       <TrustedByLearners/>
+      <LearningSection/>
       <Mentorshipsessions/>
       <Certification />
       <Footer />
